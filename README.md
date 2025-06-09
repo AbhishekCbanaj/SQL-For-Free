@@ -24,21 +24,21 @@ Temporary Tables   |
 String Functions  | UPPER, LOWER, SUBSTRING, CONCAT, TRIM
 Window Function  | RANK, DENSE RANK, ROW NUMBER, LEAD/LAG
 Advance SQL  | PARTITION BY, Store Procedure, View, Temp Table
-SQL Project  | [Project](https://github.com/Aayush-Basnet/SQL/tree/main/SQL%20Project)
-SQL Tutorial       | [Learning Logs](https://github.com/Aayush-Basnet/SQL/blob/main/SQL%20Project/SQL_Tutorial_learning.sql)
+SQL Project  | [Project](https://github.com/AbhishekCbanaj/SQL-For-Free/tree/main/SQL%20Project)
+SQL Tutorial       | [Learning Logs](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/SQL%20Project/SQL_Tutorial_learning.sql)
 
 ---------------------------------------------------------------------------------------------------------------------
 
 | SQL Projects  |    
 | ---------------- |
-| [COVID-19 Data Exploration](https://github.com/Aayush-Basnet/SQL/blob/main/SQL%20Project/Covid%20Exploration%20Project.sql)   |
-| [Nashville Housing Data Cleaning](https://github.com/Aayush-Basnet/SQL/blob/main/SQL%20Project/Nashville%20Housing%20Data%20Cleaning.sql)   |
-| [SQL Murder Mystery Game](https://github.com/Aayush-Basnet/SQL/blob/main/SQL%20Project/SQL-Murder-Mystery.sql)  |
-| [Company Layoffs](https://github.com/Aayush-Basnet/SQL/blob/main/SQL%20Data%20Cleaning.sql)   |
-| [Adidas Sales Analysis](https://github.com/Aayush-Basnet/SQL/blob/main/SQL%20Project/Adidas%20Sales%20Analysis.sql)|
-| [Pizza Sales Analysis](https://github.com/Aayush-Basnet/SQL/blob/main/SQL%20Project/pizza_sales_sql.sql)   |
-|[Target Sales Analysis(sql-python-project)](https://github.com/Aayush-Basnet/SQL-Python-Ecommerce-project)  |
-|[Advance SQL Queries](https://github.com/Aayush-Basnet/SQL/blob/main/SQL%20Project/AdvanceSQLQueries.sql)|
+| [COVID-19 Data Exploration](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/SQL%20Project/Covid%20Exploration%20Project.sql)   |
+| [Nashville Housing Data Cleaning](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/SQL%20Project/Nashville%20Housing%20Data%20Cleaning.sql)   |
+| [SQL Murder Mystery Game](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/SQL%20Project/SQL-Murder-Mystery.sql)  |
+| [Company Layoffs](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/SQL%20Data%20Cleaning.sql)   |
+| [Adidas Sales Analysis](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/SQL%20Project/Adidas%20Sales%20Analysis.sql)|
+| [Pizza Sales Analysis](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/SQL%20Project/pizza_sales_sql.sql)   |
+|[Target Sales Analysis(sql-python-project)](https://github.com/AbhishekCbanaj/SQL-Python-Ecommerce-project)  |
+|[Advance SQL Queries](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/SQL%20Project/AdvanceSQLQueries.sql)|
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 # DAY 1 of 'Learning SQL'
@@ -106,7 +106,7 @@ CREATE TABLE table_name (
    ....
 );
 ```
-  ![alt text](https://github.com/Aayush-Basnet/SQL/blob/9cb0d5125b0ba59938389be6d92adc5366d771c7/Asset/Create%20Table.png)
+  ![alt text](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/Asset/Create%20Table.png)
 
 
 ###  ALTER Table
@@ -116,7 +116,7 @@ Syntax:
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
-  ![alt text](https://github.com/Aayush-Basnet/SQL/blob/9cb0d5125b0ba59938389be6d92adc5366d771c7/Asset/Alter%20Table.png)
+  ![alt text](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/Asset/Alter%20Table.png)
 ###  DROP Table
 It is used to drop existing table from the databases.
 <br>
@@ -124,7 +124,7 @@ Syntax:
 ```SQL
 DROP TABLE table_name;
 ```
-  ![alt text](https://github.com/Aayush-Basnet/SQL/blob/9cb0d5125b0ba59938389be6d92adc5366d771c7/Asset/Drop%20Table.png)
+  ![alt text](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/Asset/Drop%20Table.png)
 ###  TRUNCATE Table
 It is used to delete the data inside the table but not the table itself.
 <br>
@@ -132,7 +132,7 @@ Syntax:
 ```SQL
 TRUNCATE TABLE table_name;
 ```
-  ![alt text](https://github.com/Aayush-Basnet/SQL/blob/9cb0d5125b0ba59938389be6d92adc5366d771c7/Asset/Truncate%20Table.png)
+  ![alt text](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/Asset/Truncate%20Table.png)
 
 # Day 3
 
@@ -596,7 +596,7 @@ SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
 FROM Orders
 INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 ```
-![alt text](https://github.com/Aayush-Basnet/SQL/blob/504323f7cbd460e309c9f6621190641951402805/Asset/Screenshot%202024-04-10%20164630.png)
+![alt text](https://github.com/AbhishekCbanaj/SQL-For-Free/blob/main/Asset/Screenshot%202024-04-10%20164630.png)
 
 Here are the differetn types of JOINS in SQL:
 * ```INNER JOIN```: Returns records that have matching values in both tables
